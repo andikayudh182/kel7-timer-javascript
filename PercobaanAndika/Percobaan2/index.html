@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="stopwatch.css">
+<style>
+    
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1><p id="output"><b>0:00:00:00</b></p></h1>
+        <div id="controls" align="center">
+             <button id= "startPause" onclick="startPause()"><b id="start">Mulai</b></button>
+             <button onclick="reset()" id="reset"><b id="reset"> Ulang</b></button>
+             <button onclick="lap()" id="lap"><b id="lap"> Lap</b></button>
+        </div>
+
+        <ul class="laps">
+
+        </ul>
+
+        <h2 id="TotalPengerjaan"></h2>
+</div>
+<script src="stopwatch.js"> </script>
+</body>
+</html>

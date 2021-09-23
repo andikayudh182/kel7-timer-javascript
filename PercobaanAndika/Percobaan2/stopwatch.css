@@ -1,0 +1,40 @@
+body {
+    background-color:gray;
+}
+h1 {
+    font-size: 5em;
+}
+
+button {
+    font-size: 25px;
+    width: 130px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+#startPause {
+    background-color: blue;
+    border-color: blue;
+}
+
+#reset {
+    background-color: yellow;
+    border-color: yellow;
+}
+
+#lap {
+    background-color: orange;
+    border-color: orange;
+}
+
+.container {
+    margin: auto;
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+}
+#controls {
+    margin-left: 7px;
+    width: 310px;
+    height:70px;
+}
